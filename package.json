@@ -1,0 +1,25 @@
+{
+  "name": "yougame-search",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "@types/elasticsearch": "^5.0.30",
+    "@types/moment": "^2.13.0",
+    "@types/restify": "^7.2.7",
+    "axios": "^0.18.0",
+    "elasticsearch": "^15.3.1",
+    "moment": "^2.24.0",
+    "restify": "^7.7.0"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "ts-node": "^8.0.2",
+    "tslint": "^5.12.1",
+    "tslint-config-airbnb": "^5.11.1",
+    "typescript": "^3.3.1"
+  }
+}
